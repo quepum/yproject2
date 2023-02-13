@@ -123,7 +123,7 @@ class Asteroid(pygame.sprite.Sprite):
         super(Asteroid, self).__init__()
 
         self.width, self.height = size
-        asteroid_sp = {i: f'asteroids2/asteroid{i}.png' for i in range(1, 6)}
+        asteroid_sp = {i: f'asteroids/asteroid{i}.png' for i in range(1, 6)}
         img = asteroid_sp.get(type)
         self.dirlist = ['top', 'bottom', 'left', 'right']
         self.dir = random.choice(self.dirlist)
