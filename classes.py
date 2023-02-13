@@ -12,8 +12,8 @@ class Rocket(pygame.sprite.Sprite):
     def __init__(self, size):
         super(Rocket, self).__init__()
         self.width, self.height = size
-        self.surf = pygame.image.load('rocket.png').convert()
-        self.surf.set_colorkey((0, 0, 0), RLEACCEL)
+        self.surf = pygame.image.load('nave.png').convert()
+        self.surf.set_colorkey((0, 0, 0))
         self.rect = self.surf.get_rect(center=(250, self.height * 0.50))
         self.speed = 5
         self.dirlist = ['top', 'right', 'bottom', 'left']
