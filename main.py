@@ -33,7 +33,7 @@ def main():
 
     start_img = pygame.image.load('start.jpg')
     restart_img = pygame.image.load('restart.png')
-    bg = pygame.image.load('lproject2/bg1s.png')
+    bg = pygame.image.load('black.png')
 
     score = 0
     game = 0
