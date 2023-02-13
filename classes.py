@@ -15,7 +15,7 @@ class Rocket(pygame.sprite.Sprite):
         self.surf = pygame.image.load('nave.png').convert()
         self.surf.set_colorkey((0, 0, 0))
         self.rect = self.surf.get_rect(center=(250, self.height * 0.50))
-        self.speed = 5
+        self.speed = 7
         self.dirlist = ['top', 'right', 'bottom', 'left']
         self.dirindex = 0
         self.comms = self.dirlist[self.dirindex]
